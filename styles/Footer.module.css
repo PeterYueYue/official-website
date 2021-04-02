@@ -1,0 +1,82 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 55px 65px;
+}
+.footer .logo img{
+    width: 180px;
+    height: 60px;
+}
+.footer .info{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 ;
+}
+.footer .foot_title{
+    font-size: 15px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.footer li{
+    font-size: 14px;
+    color: #666;
+    line-height: 200%;
+}
+.footer .contact{
+    width: 300px;
+}
+.bottomMod{
+    width: 100%;
+    height: 45px;
+    background-color:#212120;
+    line-height: 45px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.contact_item{
+    margin-bottom: 20px;
+}
+.contact_item .contact_title{
+    font-size: 15px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.con_box{
+    border: 1px solid #686767;
+    box-shadow: 0 0 0 1px #222;
+    border-radius: 4px;
+    width: 25.781%;
+    max-width: 60px;
+    
+    
+}
+.con_box img{
+    width: 27px;
+    display: block;
+    vertical-align: top;
+    margin: 0 auto;
+}
+.contact_item ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:1300px ) {
+    .footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f5f5f5;
+        padding: 55px 65px;
+    }
+}

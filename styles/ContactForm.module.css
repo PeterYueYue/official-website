@@ -1,0 +1,121 @@
+.msgbox{
+    text-align: center;
+}
+.msgbox .line{
+    width: 28px;
+    height: 2px;
+    background-color: #333333;
+    margin: 15px auto 10px;
+}
+.msgbox .title{
+    font-size: 24px;
+    color: #333333;
+}
+.msgbox .subtitle{
+    font-size: 16px;
+    color: #555555;
+}
+.formBox{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inputbox{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.inputbox input{
+    flex: 1;
+    height: 43px;
+    line-height: 43px;
+    /* font-size: 12px; */
+    color: #888;
+    text-indent: 10px;
+    box-sizing: border-box;
+    outline:none;
+
+}
+.inputbox span{
+    color: red;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.textarea{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.textarea textarea{
+    flex: 1;
+    height: 150px;
+    padding: 5px;
+    /* font-size: 12px; */
+    color: #888;
+    box-sizing: border-box;
+    outline:none;
+}
+.textarea span{
+    color: red;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.inputbox .vcode{
+    width: 150px !important;
+    flex: none;
+}
+.verification_code{
+    width: 122px;
+    height: 32px;
+}
+.vcbox{
+    display: flex;
+    justify-content: left;
+}
+.submitbtnbox{
+    width: 100%;
+}
+.inputbox .submitbtn{
+    flex: none;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    background: #222;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1300px){
+
+    .formBox{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .inputbox{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .textarea{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "official-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "jquery": "^3.6.0",
+    "next": "10.0.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-media": "^1.10.0",
+    "swiper": "^6.5.0"
+  }
+}
